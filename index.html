@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Date Dropdown with Strategy List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Toggle Button for Views -->
+    <div class="toggle-wrapper">
+      <button class="toggle-button active" data-view="Bullish">Bullish</button>
+      <button class="toggle-button" data-view="Bearish">Bearish</button>
+      <button class="toggle-button" data-view="RangeBound">Rangebound</button>
+      <button class="toggle-button" data-view="Volatile">Volatile</button>
+    </div>
+
+    <!-- Date Dropdown Accordion -->
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <span id="selectedDate">25 Apr 2024</span>
+        <span>▼</span>
+      </div>
+      <div class="accordion-content">
+        <!-- Date options will be rendered here -->
+        <div id="dateList"></div>
+      </div>
+    </div>
+
+    <!-- List of Strategies -->
+    <div id="strategyList" class="strategy-list">
+      
+    </div>
+
+    <!-- Empty State -->
+    <div id="emptyState" class="empty-state" style="display: none;">
+      <p>There are no strategies for</p>
+      <p id="selectedDateText"></p> 
+  </div>
+  
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
