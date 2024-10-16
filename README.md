@@ -73,5 +73,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 - Special thanks to resources and documentation that guided the development of this application.
 
 ## Contact
-For any inquiries, please contact me at: hemanepranali08@example.com
-```
+For any inquiries, please contact me at:
+ 
+hemanepranali08@example.com
